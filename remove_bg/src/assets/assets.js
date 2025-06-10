@@ -111,4 +111,3 @@ export const footer = [
     logo: "https://img.icons8.com/fluent/30/000000/linkedin.png",
   },
 ];
-// 2:40 min
