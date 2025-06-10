@@ -53,22 +53,6 @@ public class ClerkWebhookController {
             System.out.println("[Webhook] Received type = " + eventType);
             System.out.println("[Webhook] Received data JSON = " + eventData.toString());
 
-            // (4) Dispatch based on type
-//            switch (eventType) {
-//                case "user.created":
-//                    handleUserCreated(eventData);
-//                    break;
-//                case "user.updated":
-//                    handleUserUpdated(eventData);
-//                    break;
-//                case "user.deleted":
-//                    handleUserDeleted(eventData);
-//                    break;
-//                default:
-//                    // Unrecognized event type → do nothing
-//                    break;
-//            }
-
 
 
             switch (eventType) {
@@ -85,27 +69,6 @@ public class ClerkWebhookController {
                     // Unrecognized event type → do nothing
                     break;
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             // (5) Always return 200 OK (Clerk/​Svix expects this if we processed successfully)
@@ -190,13 +153,6 @@ public class ClerkWebhookController {
             email = emailArray.get(0).path("email_address").asText("");
         }
 
-//        UserDTO userDTO = UserDTO.builder()
-//                .clerkId(clerkId)
-//                .email(email)
-//                .firstName(data.path("first_name").asText(""))
-//                .lastName(data.path("last_name").asText(""))
-//                .photoUrl(data.path("image_url").asText(""))
-//                .build();
 
 
         UserDTO newUser = UserDTO.builder()
@@ -219,4 +175,3 @@ public class ClerkWebhookController {
         return true;
     }
 }
-//6:2 min
