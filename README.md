@@ -313,7 +313,6 @@ Feel free to contact:
 
 * 📧 **Email**: [chaudharilalit717@gmail.com](mailto:chaudharilalit717@gmail.com)
 * 📞 **Phone**: +91 7058097985
-* 🔗 **LinkedIn**: [linkedin.com/in/lalit-chaudhari](www.linkedin.com/in/lalit-chaudhari-a16a10246)
-
+*  🔗 **LinkedIn**: [linkedin.com/in/lalit-chaudhari-a16a10246](https://www.linkedin.com/in/lalit-chaudhari-a16a10246)
 ---
 
