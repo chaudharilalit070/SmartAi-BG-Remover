@@ -121,8 +121,8 @@ graph TD;
 
 
 2️⃣ Processed Result
+![image](https://github.com/user-attachments/assets/20f6baef-4580-42b5-b9e5-17e0af3c4822)
 
-3️⃣ Download/Copy Screen
 
 🙏 Acknowledgements
 
