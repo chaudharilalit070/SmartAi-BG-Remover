@@ -158,7 +158,7 @@ Follow the steps below to get the **SmartAI - Background Removal Web App** runni
 ### 📁 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/smartai-remove-bg.git
+gh repo clone chaudharilalit070/SmartAi-BG-Remover
 cd smartai-remove-bg
 ```
 
