@@ -4,6 +4,11 @@
 
 A full-stack background remover application built with Spring Boot and MySQL for the backend, and Vite + React for a fast, interactive frontend.
 
+📸 Output Screens
+
+![image](https://github.com/user-attachments/assets/c1fc91cf-95b2-4448-8ede-a928f480b93d)
+
+
 ## 📦 Project Overview
 
 **SmartAI** is a full-stack, intelligent image background removal tool built for speed and usability. Using **React + Vite** on the frontend and **Spring Boot** on the backend, SmartAI offers smooth, secure, and responsive performance. 
@@ -88,6 +93,32 @@ graph TD;
 📸 Output Screens
 
 1️⃣ Upload Interface
+
+1.1 📸  Home Screen
+
+![image](https://github.com/user-attachments/assets/0867f9e0-1fb2-4769-b446-75da2e611e36)
+
+
+1.2 📸  Signup Screen
+
+ ![image](https://github.com/user-attachments/assets/1a51d459-64da-49c5-afcf-a024f68130b4)
+
+1.3 📸  Bgremoval Screen
+
+![image](https://github.com/user-attachments/assets/e9f7e42b-529d-4719-848e-c58ea12e3852)
+
+1.4 📸  Bgremoval Screen
+
+![image](https://github.com/user-attachments/assets/4d14d199-37bc-4696-8857-413644d8386d)
+
+1.4 📸  Credit Plan Screen
+
+![image](https://github.com/user-attachments/assets/037a2b20-c4cb-49b4-856e-4d61e1b9d0ee)
+
+1.5 📸  User Screen
+![image](https://github.com/user-attachments/assets/8a910b20-8a8f-4b70-95ce-634fc92d65ac)
+
+
 
 2️⃣ Processed Result
 
