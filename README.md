@@ -311,9 +311,9 @@ Contributions are welcome! Please:
 
 Feel free to contact:
 
-* 📧 **Email**: [chaudharilalit171@gmail.com](mailto:chaudharilalit171@gmail.com)
+* 📧 **Email**: [chaudharilalit717@gmail.com](mailto:chaudharilalit717@gmail.com)
 * 📞 **Phone**: +91 7058097985
-* 🔗 **LinkedIn**: [linkedin.com/in/lalit-chaudhari](https://linkedin.com/in/lalit-chaudhari)
+* 🔗 **LinkedIn**: [linkedin.com/in/lalit-chaudhari](www.linkedin.com/in/lalit-chaudhari-a16a10246)
 
 ---
 
