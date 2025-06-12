@@ -114,4 +114,206 @@ We gratefully acknowledge the frameworks and tools that made this project possib
 🌍 Open Source Community — for libraries, docs, and guides
 
 
+Absolutely! Below is a comprehensive and professional **`README.md`** section with all essential **installation instructions**, **setup steps**, **environment config**, **run commands**, and other recommended details. This makes your GitHub project complete and developer-friendly.
+
+---
+
+## 🛠️ Installation & Setup Guide
+
+Follow the steps below to get the **SmartAI - Background Removal Web App** running on your local machine.
+
+---
+
+### 📁 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/smartai-remove-bg.git
+cd smartai-remove-bg
+```
+
+---
+
+## 🧑‍💻 Project Structure
+
+```bash
+smartai-remove-bg/
+│
+├── backend/               # Spring Boot project
+│   ├── src/               # Java source files
+│   └── pom.xml            # Maven config
+│
+├── frontend/              # React + Vite frontend
+│   ├── src/               # Components & pages
+│   └── vite.config.js     # Vite config
+│
+└── README.md              # Documentation
+```
+
+---
+
+## ⚙️ Prerequisites
+
+Make sure these tools are installed:
+
+| Tool       | Version      | Required For        |
+| ---------- | ------------ | ------------------- |
+| Node.js    | >= 18.x      | Frontend            |
+| npm / yarn | >= 9.x / 1.x | Frontend            |
+| Java       | >= 17        | Spring Boot Backend |
+| Maven      | >= 3.8.x     | Build Backend       |
+| MySQL      | >= 8.x       | Database            |
+
+---
+
+## 🚀 Frontend Setup (React + Vite)
+
+```bash
+cd frontend
+npm install        # or yarn
+npm run dev        # starts local dev server on http://localhost:5173
+```
+
+**Frontend Features:**
+
+* Image upload and preview
+* Background removal call
+* Clipboard copy and download
+* Clerk Auth integration
+* Razorpay Payment support
+
+---
+
+## ☕ Backend Setup (Spring Boot)
+
+1. Update your MySQL config in `application.properties`:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/smartai
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
+
+2. Run the backend:
+
+```bash
+cd backend
+./mvnw spring-boot:run   # or mvn spring-boot:run
+```
+
+> Backend runs at `http://localhost:8080`
+
+---
+
+## 🔑 Clerk Configuration (Frontend)
+
+Register at [Clerk.dev](https://clerk.dev) and add your keys in `.env`:
+
+```env
+VITE_CLERK_PUBLISHABLE_KEY=your_publishable_key
+```
+
+---
+
+## 💳 Razorpay Configuration
+
+Register at [Razorpay](https://razorpay.com) and update:
+
+```env
+VITE_RAZORPAY_KEY=your_razorpay_key
+```
+
+You may also secure Razorpay secret in the backend.
+
+---
+
+## 📦 Environment Variables
+
+Create `.env` file in **frontend**:
+
+```env
+VITE_BACKEND_API=http://localhost:8080
+VITE_CLERK_PUBLISHABLE_KEY=xxx
+VITE_RAZORPAY_KEY=xxx
+```
+
+For **backend**, use:
+
+```properties
+# application.properties
+jwt.secret=your_secret_key
+razorpay.key_id=your_key
+razorpay.key_secret=your_secret
+```
+
+---
+
+## 🧪 Testing
+
+**Frontend:**
+
+```bash
+npm run test
+```
+
+**Backend:**
+
+```bash
+./mvnw test
+```
+
+---
+
+## 📂 Build for Production
+
+**Frontend:**
+
+```bash
+npm run build
+```
+
+**Backend:**
+
+```bash
+./mvnw clean package
+```
+
+---
+
+## 📌 Common Issues & Fixes
+
+| Issue                                   | Solution                                       |
+| --------------------------------------- | ---------------------------------------------- |
+| `vite: command not found`               | Install globally with `npm i -g vite`          |
+| `java.lang.ExceptionInInitializerError` | Check MySQL config or missing env variable     |
+| Clerk auth not working                  | Ensure public key is correctly added in `.env` |
+| CORS error                              | Enable CORS in Spring Boot config              |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+
+1. Fork the repo
+2. Create a feature branch
+3. Commit your changes
+4. Submit a Pull Request
+
+---
+
+## 🙌 Support
+
+Feel free to contact:
+
+* 📧 **Email**: [chaudharilalit171@gmail.com](mailto:chaudharilalit171@gmail.com)
+* 📞 **Phone**: +91 7058097985
+* 🔗 **LinkedIn**: [linkedin.com/in/lalit-chaudhari](https://linkedin.com/in/lalit-chaudhari)
+
+---
 
